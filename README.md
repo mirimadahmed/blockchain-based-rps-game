@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+# Blockchain based Rock, Paper, Scissors, Lizar, and Spock Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can play this game with your friends by betting eth for each game. 
 
-## Available Scripts
+Flow works like this:
+1. Player 1: put address of second player and your move along with the amount to bet, game is created and address is provided.
+2. Player 2: gets the game address and joins the game, plays his move and provide the same amount of eth.
+3. Player 1: reveals the move and the finality is calculated at the time and all the eth goes to the winner.
+4. In case, if the player 2 doesnt do a move or player 1 doesnt reveal his move there is a timeout to make the game void and return each player his eth.
+
+## How to run the code
 
 In the project directory, you can run:
 
